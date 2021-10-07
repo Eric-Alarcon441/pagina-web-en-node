@@ -4,8 +4,7 @@
 	"description": "\"# pagina-web-en-node\"",
 	"main": "index.js",
 	"scripts": {
-		"build": "node src",
-		"start": "node src",
+		"vercel-build": "node src/index.js",
 		"dev": "nodemon src"
 	},
 	"repository": {
